@@ -1,28 +1,40 @@
-📦 Project: React Food List App
-A simple and modern React application that displays categorized lists of fruits and vegetables with their calorie values. Designed with clean UI and supports future extension for features like dark mode, sorting, filtering, etc.
+# 📘 Simple React Posts App
 
-🖼️ Demo
-A responsive card-style list that showcases items using modern CSS with hover effects and flexible design.
+This is a simple React application that fetches and displays the **first 10 posts** from the JSONPlaceholder API using **Axios**.
 
-🚀 Features
-✅ Built with React functional components
+---
 
-🎨 Clean, modern UI with CSS gradients and shadows
+## ✨ Features
 
-🧠 Component reusability using List component
+- 🔄 Fetches data from a real API
+- 📃 Displays the first 10 posts only
+- ⚛️ Built using functional React components and hooks
+- 💅 Simple and clean styling
 
-📦 Data structured by categories (Fruits, Vegetables)
+---
 
-🧪 Includes sorting/filtering logic (commented and ready)
+## 📦 Technologies Used
 
-⚙️ Ready for dark/light mode extension
+- React (with Hooks: `useState`, `useEffect`)
+- Axios
+- CSS for basic styling
 
-📁 Project Structure
-bash
-Copy
-Edit
-├── App.jsx # Main app logic with data arrays
-├── List.jsx # Reusable component to render list items
-├── main.jsx # App entry point
-├── index.css # Modern CSS styles
-└── README.md # Project description
+---
+
+## 🗂️ Project Structure
+
+src/
+├── App.jsx # Main app logic
+├── Post.jsx # Reusable component for a single post
+├── index.css # Styling file
+├── main.jsx # Entry point
+
+---
+
+## 👨‍💻 Author
+
+**Made by Abdullah Omar Akram Al-Safar (Age: 16)**
+
+📺 [LEVEL UP IT - YouTube](https://www.youtube.com/@LEVEL_UP_IT)  
+🔗 [LinkedIn](https://www.linkedin.com/in/abdullah-omar-2a552834b)  
+📬 [Email](mailto:abodyalsafar2009@gmail.com)
